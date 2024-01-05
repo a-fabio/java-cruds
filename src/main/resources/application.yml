@@ -1,0 +1,8 @@
+server:
+  port: 4000
+
+spring:
+  profiles:
+    active: h2
+  application:
+    name: poc
