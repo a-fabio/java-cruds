@@ -1,7 +1,6 @@
-package com.pocs.padrao.repository;
+package br.com.poc.repository;
 
-import com.pocs.padrao.entity.Categoria;
-import com.pocs.padrao.entity.Produto;
+import br.com.poc.entity.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

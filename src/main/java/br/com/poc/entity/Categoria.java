@@ -1,4 +1,4 @@
-package com.pocs.padrao.entity;
+package br.com.poc.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;

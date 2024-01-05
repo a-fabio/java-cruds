@@ -1,7 +1,7 @@
-package com.pocs.padrao.controller;
+package br.com.poc.controller;
 
-import com.pocs.padrao.entity.Categoria;
-import com.pocs.padrao.repository.CategoriaRepository;
+import br.com.poc.entity.Categoria;
+import br.com.poc.repository.CategoriaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

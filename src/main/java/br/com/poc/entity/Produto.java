@@ -1,11 +1,9 @@
-package com.pocs.padrao.entity;
+package br.com.poc.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.mapping.Join;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 @Data
 @Entity
