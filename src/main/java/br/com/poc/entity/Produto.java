@@ -1,12 +1,14 @@
 package br.com.poc.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.math.BigDecimal;
 
 @Data
 @Entity
+@AllArgsConstructor
 @Table(name = "PRODUTO")
 public class Produto {
 
