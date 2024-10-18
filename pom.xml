@@ -8,7 +8,7 @@
 </parent>
 <groupId>br.com</groupId>
 <artifactId>poc</artifactId>
-<version>0.0.1-SNAPSHOT</version>
+<version>1.0.0</version>
 <name>poc</name>
 <description>Projeto base para futuras POCs em Spring 3</description>
 <properties>

@@ -1,0 +1,15 @@
+services:
+  spring-poc:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        versao: 1.0.0
+        aplicacao: poc
+    ports:
+      - "8080:4000"
+    environment:
+      TZ: "America/Sao_Paulo"
+      SPRING_PROFILES_ACTIVE: h2
+      XMS: 1024m
+      XMX: 1024m
