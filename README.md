@@ -3,7 +3,7 @@
 - Docker CLI.
 - Pode ser necessário incluir plugin do maven para definir a main class no manifest.mf quando compilar. Na IDE é feito de forma automática ou definida na configuração de execução, mas para execução via comando java -jar se faz necessário definir esta main class.
 
-### UTIL
+### Útil
 
 - `docker ps` - Lista somente containers ativos
 - `docker ps -a` - Lista todos os containers. Aqui é possivel obter o id de um container
