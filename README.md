@@ -1,6 +1,7 @@
 ### Pré-Requisitos
 
-Docker CLI.
+- Docker CLI.
+- Pode ser necessário incluir plugin do maven para definir a main class no manifest.mf quando compilar. Na IDE é feito de forma automática ou definida na configuração de execução, mas para execução via comando java -jar se faz necessário definir esta main class.
 
 ### UTIL
 
