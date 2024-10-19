@@ -1,3 +1,7 @@
+### Docker x Docker Compose
+
+Docker sobe apenas um container. Compose orquestra diversos containers.
+
 ### Útil
 
 Comandos precisam ser executados no diretório onde está o docker-compose.yaml.
