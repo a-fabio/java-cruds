@@ -1,6 +1,6 @@
 ### Docker x Docker Compose
 
-Docker sobe apenas um container. Compose orquestra diversos containers.
+Docker cria e gerencia containers. Compose orquestra multiplos containers.
 
 ### Útil
 
