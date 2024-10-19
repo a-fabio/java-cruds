@@ -36,4 +36,5 @@ public class CategoriaController {
     ResponseEntity deletar(@PathVariable Long id) {
         return new ResponseEntity(HttpStatus.OK);
     }
+
 }

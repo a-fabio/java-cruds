@@ -2,6 +2,7 @@ package br.com.poc.controller;
 
 import br.com.poc.entity.Produto;
 import br.com.poc.repository.ProdutoRepository;
+import br.com.poc.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,9 +16,12 @@ public class ProdutoController {
     @Autowired
     private ProdutoRepository produtoRepository;
 
+    @Autowired
+    private ProdutoService produtoService;
+
     @PostMapping("/cadastrar")
-    ResponseEntity<?> cadastrar (@RequestBody Produto produto) {
-            produtoRepository.save(produto);
+    public ResponseEntity<?> cadastrar (@RequestBody Produto produto) {
+        produtoService.salvar(produto);
             return new ResponseEntity<>(produto, HttpStatus.CREATED);
     }
 
