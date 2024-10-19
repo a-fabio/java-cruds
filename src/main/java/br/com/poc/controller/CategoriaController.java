@@ -32,7 +32,7 @@ public class CategoriaController {
         return new ResponseEntity<>(categoriaRepository.save(categoria), HttpStatus.OK);
     }
 
-    @DeleteMapping("{$id}")
+    @DeleteMapping("/{$id}")
     ResponseEntity deletar(@PathVariable Long id) {
         return new ResponseEntity(HttpStatus.OK);
     }
